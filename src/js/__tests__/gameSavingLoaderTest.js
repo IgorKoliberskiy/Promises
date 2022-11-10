@@ -1,6 +1,6 @@
 import GameSavingLoader from '../gameSavingLoader';
 
-test('Positive test of the load method of the GameSavingLoader class', async () => {
+test('Тестирование GameSavingLoader class', async () => {
   const data = await GameSavingLoader.load();
   expect(data).toEqual(
     {

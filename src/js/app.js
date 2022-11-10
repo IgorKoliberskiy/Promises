@@ -1,5 +1,5 @@
-import GameSavingLoader from './GameSavingLoader';
-import GameSaving from './GameSaving';
+import GameSavingLoader from './gameSavingLoader';
+import GameSaving from './gameSaving';
 
 GameSavingLoader.load().then((saving) => {
   GameSaving(saving.id, saving.created, saving.userInfo);

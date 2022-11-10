@@ -1,6 +1,6 @@
 import GameSaving from '../gameSaving';
 
-test('Positive test of the GameSaving class', () => {
+test('Тестирование GameSaving class', () => {
   const save = new GameSaving(9, 1546300800, {
     id: 1, name: 'Hitman', level: 10, points: 2000,
   });
